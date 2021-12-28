@@ -29,14 +29,14 @@ const Project = ({
           </span>
         </a>
 
-        <div>
+        <div className="">
           <h1 className="text-center">Technologies Used</h1>
-          <div className="flex flex-wrap bg-black mr-2 rounded-md p-4 space-x-2">
+          <div className="flex flex-wrap justify-center bg-black mr-2 rounded-md p-4 space-x-2">
             {icons}
           </div>
         </div>
       </div>
-      <div className="border-2 border-black overflow-hidden rounded-md w-1/2">
+      <div className="border-4 border-black overflow-hidden rounded-md w-1/2 flex justify-center">
         <img src={img} alt={title}></img>
       </div>
     </div>

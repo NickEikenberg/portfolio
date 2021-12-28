@@ -4,7 +4,7 @@ import NavLinks from './NavLinks';
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between p-5">
+    <div className="flex items-center justify-between p-5 mb-16">
       <Logo />
       <NavLinks />
     </div>
