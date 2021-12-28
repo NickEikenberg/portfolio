@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from './Title';
 import Project from './Project';
+import { ReactIcon, JSIcon, TailwindIcon, NextIcon } from '../Icons/Index';
 
 const MyWork = () => {
   return (
@@ -10,11 +11,12 @@ const MyWork = () => {
         title={'UNIFRIENDS'}
         subtitle={'Front-End Application | NextJS'}
         description={
-          'Unifriends is a generative 3D NFT project. I was hired to create a web page based on Figma designs provided by the client.'
+          'Unifriends is a generative 3D NFT project. I was hired to create a web page based on Figma designs provided by the client. This app was created with NextJS and TailwindCSS.'
         }
         link={'https://www.unifriends.io/'}
         github={''}
         img={'img/Unifriends.png'}
+        icons={[<NextIcon />, <JSIcon />, <TailwindIcon />]}
       />
     </div>
   );
