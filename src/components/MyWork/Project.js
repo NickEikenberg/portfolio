@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiExternalLink } from 'react-icons/fi';
+import { BsGithub } from 'react-icons/bs';
 
 const Project = ({
   title,
@@ -31,15 +32,23 @@ const Project = ({
           </a>
 
           {github && (
-            <a href={github} target="_blank" rel="noreferrer">
-              GitHub
+            <a
+              href={github}
+              target="_blank"
+              rel="noreferrer"
+              className="bg-blue-700 text-white rounded-md p-2 inline-flex items-center justify-between text-lg ml-2"
+            >
+              GitHub{' '}
+              <span className="pl-2 -translate-y-0.5">
+                <BsGithub />
+              </span>
             </a>
           )}
         </div>
 
         <div className="">
           <h1 className="text-center">Technologies Used</h1>
-          <div className="flex flex-wrap justify-center bg-black mr-2 rounded-md p-4 space-x-2">
+          <div className="flex flex-wrap justify-start bg-black mr-2 rounded-md p-4 space-x-2">
             {icons}
           </div>
         </div>
