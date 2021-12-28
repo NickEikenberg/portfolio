@@ -17,6 +17,7 @@ const MyWork = () => {
         github={''}
         img={'img/Unifriends.png'}
         icons={[<NextIcon />, <JSIcon />, <TailwindIcon />]}
+        flipped={false}
       />
     </div>
   );
