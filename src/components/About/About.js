@@ -19,9 +19,7 @@ const About = () => {
       </div>
       <p className="font-light">
         {`I’m a full-stack software engineer coming from a
-        background in the video games industry. After 5 years in
-        Quality Assurance, I’ve learned that I thrive under the pressure of hitting
-        deadlines while still maintaining a high-quality work output.`}
+        background in the video games industry. I have a passion for creating beautiful websites that are intuitive and accessible.`}
       </p>
     </div>
   );

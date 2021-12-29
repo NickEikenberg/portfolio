@@ -5,12 +5,9 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 const Contact = () => {
   return (
-    <div className="py-10 px-20">
+    <div className="py-10 px-20 pb-20">
       <Title title={'Contact'} />
-      <p className="text-lg">
-        The easiest way to reach me is by just shooting me an email! Feel free
-        to connect with me on LinkedIn and GitHub as well.
-      </p>
+
       <div className="flex text-5xl justify-center space-x-4">
         <a
           href="mailto:nickeikenberg95@gmail.com"
