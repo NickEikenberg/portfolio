@@ -5,7 +5,7 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 const Contact = () => {
   return (
-    <div className="py-10 px-20 pb-20">
+    <div className="py-10 px-20 pb-20" id="contact">
       <Title title={'Contact'} />
 
       <div className="flex text-5xl justify-center space-x-4">

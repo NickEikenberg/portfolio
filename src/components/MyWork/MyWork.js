@@ -1,11 +1,11 @@
 import React from 'react';
 import Title from '../Title';
 import Project from './Project';
-import { ReactIcon, JSIcon, TailwindIcon, NextIcon } from '../Icons/Index';
+import { JSIcon, TailwindIcon, NextIcon } from '../Icons/Index';
 
 const MyWork = () => {
   return (
-    <div className="py-10 px-20">
+    <div className="py-5 px-20" id="myWork">
       <Title title={'My Work'} />
       <Project
         title={'UNIFRIENDS'}

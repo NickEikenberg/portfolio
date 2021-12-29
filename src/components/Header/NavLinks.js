@@ -1,23 +1,47 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
-const NavLinks = () => {
+const NavLinks = ({ hideResume }) => {
   return (
     <div className="flex space-x-4 text-blue-700 text-lg">
-      <a href="/" className="hover:text-red-500 transition duration-300">
+      <Link
+        to={'about'}
+        smooth={true}
+        duration={1000}
+        className="hover:text-red-500 transition duration-300 cursor-pointer"
+      >
         About
-      </a>
-      <a href="/" className="hover:text-red-500 transition duration-300">
+      </Link>
+      <Link
+        to={'myWork'}
+        smooth={true}
+        duration={1000}
+        className="hover:text-red-500 transition duration-300 cursor-pointer"
+      >
         My Work
-      </a>
-      <a href="/" className="hover:text-red-500 transition duration-300">
+      </Link>
+      <Link
+        to="myProjects"
+        smooth={true}
+        duration={1000}
+        className="hover:text-red-500 transition duration-300 cursor-pointer"
+      >
         My Projects
-      </a>
-      <a href="/" className="hover:text-red-500 transition duration-300">
+      </Link>
+      <Link
+        to="contact"
+        smooth={true}
+        duration={1000}
+        className="hover:text-red-500 transition duration-300 cursor-pointer"
+      >
         Contact
-      </a>
-      <a href="/" className="hover:text-red-500 transition duration-300">
+      </Link>
+      <button
+        onClick={() => hideResume(false)}
+        className="hover:text-red-500 transition duration-300 cursor-pointer"
+      >
         Resume
-      </a>
+      </button>
     </div>
   );
 };

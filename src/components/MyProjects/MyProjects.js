@@ -6,7 +6,6 @@ import {
   JSIcon,
   TailwindIcon,
   NextIcon,
-  NodeIcon,
   MongoIcon,
   HTMLicon,
   CSSicon,
@@ -15,7 +14,7 @@ import {
 
 const MyProjects = () => {
   return (
-    <div className="py-10 px-20">
+    <div className="py-10 px-20" id="myProjects">
       <Title title={'Projects'} />
       <div className="space-y-16">
         <Project

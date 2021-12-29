@@ -25,7 +25,7 @@ import Icon from './Icon';
 
 const AboutMe = () => {
   return (
-    <div className="py-10 px-20">
+    <div className="py-10 px-20" id="about">
       <Title title={'About Me'} />
       <div className="my-4">
         <h1 className="text-3xl">Bio:</h1>
@@ -33,27 +33,28 @@ const AboutMe = () => {
       </div>
 
       <h1 className="text-3xl">Skills:</h1>
-      <div className="flex flex-wrap mx-20 my-10 justify-start space-x-6 space-y-5 items-center">
-        <Icon />
-        <Icon name={'JavaScript'} icon={<SiJavascript />} />
-        <Icon name={'NodeJS'} icon={<SiNodedotjs />} />
-        <Icon name={'React'} icon={<SiReact />} />
-        <Icon name={'NextJS'} icon={<SiNextdotjs />} />
-        <Icon name={'HTML5'} icon={<SiHtml5 />} />
-        <Icon name={'CSS3'} icon={<SiCss3 />} />
-        <Icon name={'Bootstrap'} icon={<SiBootstrap />} />
-        <Icon name={'TailwindCSS'} icon={<SiTailwindcss />} />
-        <Icon name={'MySQL'} icon={<SiMysql />} />
-        <Icon name={'SQLite'} icon={<SiSqlite />} />
-        <Icon name={'PostgreSQL'} icon={<SiPostgresql />} />
-        <Icon name={'Heroku'} icon={<SiHeroku />} />
-        <Icon name={'Netlify'} icon={<SiNetlify />} />
-        <Icon name={'Postman'} icon={<SiPostman />} />
-        <Icon name={'Ruby on Rails'} icon={<SiRubyonrails />} />
-        <Icon name={'Django'} icon={<SiDjango />} />
-        <Icon name={'Python'} icon={<SiPython />} />
-        <Icon name={'MongoDB'} icon={<SiMongodb />} />
-        <Icon name={'GitHub'} icon={<SiGithub />} />
+      <div className="flex justify-center items-center">
+        <div className="flex flex-wrap">
+          <Icon name={'JavaScript'} icon={<SiJavascript />} />
+          <Icon name={'NodeJS'} icon={<SiNodedotjs />} />
+          <Icon name={'React'} icon={<SiReact />} />
+          <Icon name={'NextJS'} icon={<SiNextdotjs />} />
+          <Icon name={'HTML5'} icon={<SiHtml5 />} />
+          <Icon name={'CSS3'} icon={<SiCss3 />} />
+          <Icon name={'Bootstrap'} icon={<SiBootstrap />} />
+          <Icon name={'TailwindCSS'} icon={<SiTailwindcss />} />
+          <Icon name={'MySQL'} icon={<SiMysql />} />
+          <Icon name={'SQLite'} icon={<SiSqlite />} />
+          <Icon name={'PostgreSQL'} icon={<SiPostgresql />} />
+          <Icon name={'Heroku'} icon={<SiHeroku />} />
+          <Icon name={'Netlify'} icon={<SiNetlify />} />
+          <Icon name={'Postman'} icon={<SiPostman />} />
+          <Icon name={'Ruby on Rails'} icon={<SiRubyonrails />} />
+          <Icon name={'Django'} icon={<SiDjango />} />
+          <Icon name={'Python'} icon={<SiPython />} />
+          <Icon name={'MongoDB'} icon={<SiMongodb />} />
+          <Icon name={'GitHub'} icon={<SiGithub />} />
+        </div>
       </div>
     </div>
   );
