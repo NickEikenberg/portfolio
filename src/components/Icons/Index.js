@@ -6,6 +6,7 @@ import NodeIcon from './NodeIcon';
 import MongoIcon from './MongoIcon';
 import HTMLicon from './HTMLicon';
 import CSSicon from './CSSicon';
+import DjangoIcon from './DjangoIcon';
 
 export {
   ReactIcon,
@@ -16,4 +17,5 @@ export {
   MongoIcon,
   HTMLicon,
   CSSicon,
+  DjangoIcon,
 };

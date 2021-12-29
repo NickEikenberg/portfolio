@@ -10,6 +10,7 @@ import {
   MongoIcon,
   HTMLicon,
   CSSicon,
+  DjangoIcon,
 } from '../Icons/Index';
 
 const MyProjects = () => {
@@ -26,7 +27,7 @@ const MyProjects = () => {
           link={'https://game-cogs.herokuapp.com/'}
           github={'https://github.com/NickEikenberg/game-cogs'}
           img={'img/GameCogs.png'}
-          icons={[<NextIcon />, <JSIcon />, <TailwindIcon />]}
+          icons={[<NextIcon />, <DjangoIcon />, <TailwindIcon />]}
         />
         <Project
           title={'Tinier Bananas'}

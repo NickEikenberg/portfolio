@@ -11,6 +11,7 @@ module.exports = {
           css: '#254ADD',
           node: '#5DAC46',
           mongodb: '#4BAB3D',
+          django: '#44B78B',
         },
         main: {
           purple: '#C7D0F9',
