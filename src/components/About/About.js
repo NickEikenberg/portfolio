@@ -17,7 +17,7 @@ const About = () => {
           and I <span className="text-red-500">love</span> to code.{' '}
         </p>
       </div>
-      <p className="font-light">
+      <p className="font-light text-lg">
         {`I’m a full-stack software engineer coming from a
         background in the video games industry. I have a passion for creating beautiful websites that are intuitive and accessible.`}
       </p>

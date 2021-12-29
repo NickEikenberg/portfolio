@@ -36,12 +36,14 @@ const NavLinks = ({ hideResume }) => {
       >
         Contact
       </Link>
-      <button
-        onClick={() => hideResume(false)}
+      <Link
+        to="resume"
+        smooth={true}
+        duration={1000}
         className="hover:text-red-500 transition duration-300 cursor-pointer"
       >
         Resume
-      </button>
+      </Link>
     </div>
   );
 };
